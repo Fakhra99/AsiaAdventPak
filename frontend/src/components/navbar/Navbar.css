@@ -1,0 +1,32 @@
+/* Navbar.css */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  /* min-width: 80px; */
+  width: 240px;
+  z-index: 1;
+  padding: 0; /* Removed padding to remove space */
+  margin: 0; /* Removed margin to remove space */
+  border-radius: 4px;
+  list-style: none; /* Remove default list styles */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add box shadow for better appearance */
+  left: 760px;
+}
+
+.dropdown-content li {
+  padding: 8px 16px;
+  border-bottom: 1px solid white; /* Add white border to each list item */
+}
+
+.dropdown-content li:last-child {
+  border-bottom: none; /* Remove border from last list item */
+}
+
+.dropdown-content li:hover {
+  background-color: #333;
+}
