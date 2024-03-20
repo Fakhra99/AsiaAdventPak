@@ -2,11 +2,12 @@ import React from "react";
 
 const Para = () => {
   return (
-    <div className="mt-8">
-      <h1 className="font-architects-daughter text-center text-orange-400 text-2xl md:text-4xl lg:text-5xl xl:text-6xl">
+    <div className="mt-6 mb-24">
+      <h1 className="font-architects-daughter text-center text-orange-400 text-lg md:text-xl lg:text-2xl xl:text-3xl">
         Make it memorable
       </h1>
-      <h1 className="text-center text-3xl md:text-2xl lg:text-4xl xl:text-5xl font-bold">
+
+      <h1 className="text-center text-2xl md:text-2xl lg:text-3xl xl:text-4xl font-bold">
         Welcome to Asia Adventure Pakistan
       </h1>
 
