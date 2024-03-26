@@ -8,7 +8,11 @@ module.exports = {
       fontFamily: {
         'architects-daughter': ['"Architects Daughter"', 'cursive'],
       },
+      colors: {
+        'custom-yellow': '#F9F4F0',
+        'customBlue': '#202F59',
+      },
     },
   },
   plugins: [],
-}
+};

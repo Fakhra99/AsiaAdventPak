@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Cards = () => {
   return (
@@ -30,7 +31,7 @@ const Cards = () => {
             </p>
             <div className="mt-4 flex justify-center">
               <button className="bg-blue-500 text-white py-3 px-6 rounded-full transition-shadow hover:shadow-md">
-                Read More
+                <Link to="/rushlake">Read More</Link>
               </button>
             </div>
           </div>
@@ -43,7 +44,9 @@ const Cards = () => {
             className="rounded-tl-3xl rounded-tr-3xl w-96"
           />
           <div className="card-content w-96">
-            <h2 className="font-bold text-xl mt-2 text-blue-500">Tour Name</h2>
+            <h2 className="font-bold text-xl mt-2 text-blue-500">
+              Rakaposhi Base Camp Trek
+            </h2>
             <p className="mt-2">
               <span className="font-bold">Rakaposhi Base Camp trek</span> is
               located in the Minapin Valley of District Nagar. Rakaposhi
@@ -52,7 +55,7 @@ const Cards = () => {
             </p>
             <div className="mt-4 flex justify-center">
               <button className="bg-blue-500 text-white py-3 px-6 rounded-full transition-shadow hover:shadow-md">
-                Read More
+                <Link to="/rpbct"> Read More </Link>
               </button>
             </div>
           </div>
@@ -76,7 +79,7 @@ const Cards = () => {
             </p>
             <div className="mt-4 flex justify-center">
               <button className="bg-blue-500 text-white py-3 px-6 rounded-full transition-shadow hover:shadow-md">
-                Read More
+                <Link to="hbt"> Read More</Link>
               </button>
             </div>
           </div>
@@ -103,7 +106,7 @@ const Cards = () => {
             </p>
             <div className="mt-4 flex justify-center">
               <button className="bg-blue-500 text-white py-3 px-6 rounded-full transition-shadow hover:shadow-md">
-                Read More
+                <Link to="/chilamjoshifes"> Read More</Link>
               </button>
             </div>
           </div>
@@ -130,7 +133,7 @@ const Cards = () => {
             </p>
             <div className="mt-4 flex justify-center">
               <button className="bg-blue-500 text-white py-3 px-6 rounded-full transition-shadow hover:shadow-md">
-                Read More
+                <Link to="/djst">Read More </Link>
               </button>
             </div>
           </div>
